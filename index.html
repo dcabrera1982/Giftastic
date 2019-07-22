@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
     <title>Giftastic</title>
-</head>
-<body>
+    </head>
 
-    <button data-sport="crossfit">crossfit</button>
-    <button data-sport="baseball">baseball</button>
-    <button data-sport="basketball">basketball</button>
-    <button data-sport="football">football</button>
+    <body>
+        <div class="title-search-bar">
+            <div id="buttons"></div>
+            <div class="search-bar">
+                <input type="text" name="query" id="user-search" />
+                <input id="submit" type="button" value="Submit" class="btn  btn-sm btn-success" />
+                <input type="button" class="sport btn btn-sm btn-danger" value="What's your sport?" />
+            </div>
+        </div>
+        <hr>
+        <div id="results"></div>
 
-    <div id="gifs-appear-here"></div>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/gif.js"></script>
-</body>
+    </body>
 </html>
