@@ -1,0 +1,7 @@
+body {
+    background-color: darkcyan;
+}
+
+#buttons, .search-bar {
+    text-align: center;
+}
